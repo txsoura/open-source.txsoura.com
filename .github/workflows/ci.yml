@@ -23,5 +23,6 @@ jobs:
         with:
           version: 8
           run_install: false
+          node-version: 20
       - run: pnpm install
       - run: pnpm build
