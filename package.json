@@ -1,5 +1,5 @@
 {
-  "name": "chronark.com",
+  "name": "open-source.txsoura.com",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,6 @@
     "fmt": "pnpm rome check . --apply-unsafe && pnpm rome format . --write"
   },
   "dependencies": {
-    "@next/font": "^13.5.4",
     "@next/mdx": "^13.5.4",
     "@upstash/redis": "^1.23.3",
     "contentlayer": "^0.3.4",
@@ -25,6 +24,7 @@
     "rehype-pretty-code": "^0.10.1",
     "rehype-slug": "^6.0.0",
     "remark-gfm": "3.0.1",
+    "shiki": "0.x",
     "typescript": "^5.2.2"
   },
   "devDependencies": {
