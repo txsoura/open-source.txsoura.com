@@ -18,6 +18,7 @@ specifiers:
   '@types/react': ^18.2.28
   '@types/react-dom': ^18.2.13
   '@upstash/redis': ^1.23.3
+  '@vercel/analytics': ^1.2.2
   autoprefixer: ^10.4.16
   contentlayer: ^0.3.4
   framer-motion: ^10.16.4
@@ -43,6 +44,7 @@ specifiers:
 dependencies:
   '@next/mdx': 13.5.6
   '@upstash/redis': 1.28.4
+  '@vercel/analytics': 1.2.2_next@13.5.6+react@18.2.0
   contentlayer: 0.3.4_markdown-wasm@1.2.0
   framer-motion: 10.18.0_biqbaboplfbrettd7655fr4n2y
   lucide-react: 0.284.0_react@18.2.0
@@ -1130,6 +1132,22 @@ packages:
     resolution: {integrity: sha512-UalkSAny/dz1m8giEhD3Y5ru1o+CPHI32wFyS3MyzDzj2TRvEN+lTw+mPwi20ojk0H2gs8TBW3qsrvwuLLy+pA==}
     dependencies:
       crypto-js: 4.2.0
+    dev: false
+
+  /@vercel/analytics/1.2.2_next@13.5.6+react@18.2.0:
+    resolution: {integrity: sha512-X0rctVWkQV1e5Y300ehVNqpOfSOufo7ieA5PIdna8yX/U7Vjz0GFsGf4qvAhxV02uQ2CVt7GYcrFfddXXK2Y4A==}
+    peerDependencies:
+      next: '>= 13'
+      react: ^18 || ^19
+    peerDependenciesMeta:
+      next:
+        optional: true
+      react:
+        optional: true
+    dependencies:
+      next: 13.5.6_756ubwvsgazzkcxtigvs4yqbci
+      react: 18.2.0
+      server-only: 0.0.1
     dev: false
 
   /acorn-jsx/5.3.2_acorn@8.11.3:
@@ -3236,6 +3254,10 @@ packages:
     hasBin: true
     dependencies:
       lru-cache: 6.0.0
+    dev: false
+
+  /server-only/0.0.1:
+    resolution: {integrity: sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA==}
     dev: false
 
   /shebang-command/2.0.0:
