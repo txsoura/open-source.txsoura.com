@@ -6,7 +6,7 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "open-source.txsoura.com",
+    default: "Txsoura Open Source",
     template: "%s | txsoura.com",
   },
   description: "Software Engineer | Bitcoin & Blockchain Enthusiast",
