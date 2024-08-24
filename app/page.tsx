@@ -4,6 +4,7 @@ import React from "react";
 import Particles from "./components/particles";
 
 const navigation = [
+  { name: "Home", href: "https://txsoura.com" },
   { name: "Projects", href: "/projects" },
   { name: "Contact", href: "/contact" },
 ];
